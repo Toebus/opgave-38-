@@ -18,7 +18,7 @@ namespace ValidateTheNameModelBinding.Models
     }
 
     private void IsNameValid(string firstName)
-    {throw new Exception("Name must not be null and must be between 2 and 20 characters");
+    {
       if (string.IsNullOrEmpty(firstName))
       {
         throw new ArgumentException("name is null");
