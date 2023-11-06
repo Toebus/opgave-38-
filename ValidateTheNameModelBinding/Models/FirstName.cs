@@ -8,7 +8,7 @@ namespace ValidateTheNameModelBinding.Models
 
     public FirstName(string firstName)
     {
-      IsNameValid(firstName);
+      // IsNameValid(firstName);
       _firstName = firstName;
     }
 
